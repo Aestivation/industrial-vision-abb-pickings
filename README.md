@@ -1,8 +1,5 @@
 # industrial-vision-abb-pickings
-This code aims at picking and placing some objects on a fixed conveyor. For this, YOLO11 + XGBoost are used. YOLO detects the object  and draws a rectangle bounding box around; the center of the rectangle is regarded as a grasping point. Dealing with more complicated objects, orientation can be needed which is estimated by XGBoost here. 
-
-
-A vision-guided robotic picking pipeline for sorting irregularly shaped objects on a conveyor, combining object detection, camera-to-robot coordinate calibration, and a learned grasp-orientation model to control an ABB industrial robot.
+This code aims at picking and placing some objects on a fixed conveyor. For this, YOLO11 + XGBoost are used. YOLO detects the object  and draws a rectangle bounding box around; the center of the rectangle is regarded as a grasping point. Dealing with more complicated objects, orientation can be needed which is estimated by XGBoost here.
 
 ## How it works
 
